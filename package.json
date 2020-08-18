@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "license": "MIT",
   "author": "Nipun Goyal",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
   "scripts": {
     "start": "razzle start",
     "build": "razzle build",
