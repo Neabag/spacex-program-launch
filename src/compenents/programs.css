@@ -1,0 +1,11 @@
+.programs {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10px;
+}
+.flex {
+  flex: 0 0 21%;
+  background-color: lightgreen;
+  padding: 10px;
+  margin: 10px;
+}

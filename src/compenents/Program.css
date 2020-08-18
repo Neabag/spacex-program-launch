@@ -1,0 +1,14 @@
+.programCard {
+  padding: 15px;
+  margin-bottom: 10px;
+  background: white;
+  width: fit-content;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 250px;
+}
+.programImg {
+  background: lightgray;
+  height: 250px;
+  width: 250px;
+}
