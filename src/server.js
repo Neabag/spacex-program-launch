@@ -19,7 +19,6 @@ server
     if (context.url) {
       res.redirect(context.url);
     } else {
-      console.log(assets);
       res.status(200).send(
         `<!doctype html>
     <html lang="">

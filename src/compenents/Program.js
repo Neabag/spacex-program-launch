@@ -10,10 +10,10 @@ export default function Program({ data }) {
             </div>
             <div className="programDetails" >
                 <div className="missionName">{data.mission_name} #{data.flight_number}</div>
-                <div className="missionId">Mission Id: {data.mission_id[0]}</div>
-                <div className="launchYear">Launch Year: {data.launch_year}</div>
-                <div className="launchSuccess">Successful Launch: {data.launch_success ? "true" : "false"}</div>
-                <div className="landSuccess">Successful Landing: {data.launch_landing ? data.launch_landing : "N/A"}</div>
+                <div className="missionId"><span className="heading">Mission Ids: </span><span className="insideContent">{data.mission_id.map((id, index) => { return <span className="missionIds" key={index}>{id}</span> })}</span></div>
+                <div className="launchYear"><span className="heading">Launch Year: </span><span className="insideContent" >{data.launch_year}</span></div>
+                <div className="launchSuccess"><span className="heading">Successful Launch: </span><span className="insideContent">{data.launch_success ? "true" : "false"}</span></div>
+                <div className="landSuccess"><span className="heading">Successful Landing: </span><span className="insideContent">{data.launch_landing ? data.launch_landing : "N/A"}</span></div>
             </div>
 
         </div>

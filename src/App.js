@@ -83,9 +83,9 @@ const App = () => {
     <p className="pageTitle">Spacex Launch Programs</p>
     <div className="content">
       <Filters className="filters" clicks={select} land={state.land_success} launch={state.launch_success} year={state.launch_year} />
-      {state.programs ? (state.programs.length > 0 ? (<Programs className="programs" data={state.programs} />) : <div>No data found on server for this combination</div>) : "Loading"}
+      {state.programs ? (state.programs.length > 0 ? (<Programs className="programs" data={state.programs} />) : <div>No data found on server for this combination</div>) : <img src="./public/loader.gif" alt="Loading" height="400px" width="90%" />}
     </div>
-    <div className="footer">Developved by: {"Nipun Goyal"}</div>
+    <div className="footer"><p style={{ fontWeight: "bold", display: "contents" }}>Developved by:</p> <span style={{ fontWeight: 500, display: "inline-block" }}>{"Nipun Goyal"}</span></div>
 
   </>)
 };

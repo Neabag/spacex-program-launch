@@ -5,13 +5,13 @@
 .flexBox {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 10px;
+  justify-content: space-between;
 }
 .flex {
-  flex: 0 0 21%;
+  flex: 0 0 27%;
   background-color: #a7eea7;
-  padding: 10px;
-  margin: 10px;
+  padding: 10px 0px;
+  margin: 5px 15px;
   text-align: center;
   border-radius: 4px;
 }

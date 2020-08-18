@@ -4,27 +4,74 @@ body {
   font-family: sans-serif;
   background: lightgrey;
 }
-.content {
-  display: flex;
-  flex-direction: row;
-  padding: 5px;
-}
+
 .filters {
-  flex: 2;
-  order: 1;
+  /* flex: 2;
+  order: 1; */
   background: white;
   margin: 10px;
-  height: fit-content;
+  height: 700px;
+  margin-top: -10px;
 }
-.programs {
-  flex: 8;
-  order: 2;
-  margin: 10px;
-  height: fit-content;
-}
+
 .pageTitle {
   font-size: 20px;
   font-weight: bold;
-  padding: 20px;
+  padding: 10px;
   padding-bottom: 0px;
+  padding-top: 0px;
+}
+.footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+  .programs {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    width: 64%;
+    margin-top: -10px;
+    justify-content: space-between;
+  }
+  .content {
+    display: inline-block;
+  }
+  .filters {
+    width: 30%;
+    float: left;
+  }
+  .programCard {
+    flex: 0 0 41%;
+  }
+  .programImg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .programs {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    width: 80%;
+    margin-top: -10px;
+  }
+  .content {
+    display: inline-block;
+  }
+  .filters {
+    width: 17%;
+    float: left;
+  }
+  .programCard {
+    flex: 0 0 20%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .programImg {
+    width: 100%;
+    height: 100%;
+  }
 }

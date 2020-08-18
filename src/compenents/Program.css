@@ -2,13 +2,37 @@
   padding: 15px;
   margin-bottom: 10px;
   background: white;
-  width: fit-content;
   margin-right: 10px;
   margin-bottom: 10px;
-  width: 250px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
 }
 .programImg {
   background: lightgray;
-  height: 250px;
-  width: 250px;
+  width: -webkit-fill-available;
+  height: 375px;
+}
+.programDetails {
+  padding: 20px 0px;
+}
+.missionName {
+  color: darkblue;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.missionId,
+.launchYear,
+.launchSuccess,
+.landSuccess {
+  padding: 8px 0px;
+}
+
+.heading {
+  font-weight: 600;
+  padding: 25px 0px;
+}
+.insideContent {
+  font-weight: 500;
+  color: darkslateblue;
 }
