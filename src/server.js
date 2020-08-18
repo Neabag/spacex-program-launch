@@ -19,13 +19,14 @@ server
     if (context.url) {
       res.redirect(context.url);
     } else {
+      console.log(assets);
       res.status(200).send(
         `<!doctype html>
     <html lang="">
     <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta charset="utf-8" />
-        <title>Spacex Launch Program</title>
+        <title>Spacex Launch Programs</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         ${
         assets.client.css

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import axios from 'axios';
 
-import Home from './Home';
 import Programs from './compenents/Programs';
 import Filters from './compenents/Filters';
 import './App.css';
