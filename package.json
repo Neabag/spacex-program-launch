@@ -8,6 +8,7 @@
     "npm": ">=6.0.0"
   },
   "scripts": {
+    "dev": "razzle start",
     "build": "razzle build",
     "test": "razzle test --env=jsdom",
     "start": "NODE_ENV=production node build/server.js",
