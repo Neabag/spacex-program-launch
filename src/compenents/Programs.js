@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Program from './Program';
-import './Programs.css';
+import './programs.css';
 
 export default function Programs(props) {
     return (
