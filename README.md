@@ -36,3 +36,6 @@ app is hosted here - https://spacex-launchs.herokuapp.com/
 1. react functional component is used throught the appliction to render the components
 2. urlSearchParam and history.replaceState APIs are used to update the url without refreshing the broswer page
 3. useState and useEffects hooks are used to load data at initial render and to update data on filter selections
+
+## Errors in Json Provided
+value of "launch_landing" attribute doesn't exist in the json received from https://api.spaceXdata.com/v3/launches?limit=100 (all urls provided) but filter APIs works fine, I have shown N/A if the value of land_success is not retrieved from server
