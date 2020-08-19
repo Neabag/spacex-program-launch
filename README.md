@@ -4,9 +4,10 @@ This project is created using [razzle -cli](https://www.npmjs.com/package/razzle
 
 ## To install all dependecies
 
-run `npm install` in the project folder
+run `npm install` in the project folder, this will install all the dependecies used in the project
 
-### `npm run dev`
+## Running in development mode
+run `npm run dev` to run the app in dev mode
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -17,14 +18,14 @@ You will also see any lint errors in the console.
 
 ## deployment
 
-deployment is done using heroku and github, razzle-heroku plugin is also used to handle the environment variables
+deployment is done using heroku and github, razzle-heroku plugin is also used to handle the environment variables.
 app is hosted here - https://spacex-launchs.herokuapp.com/
 
 ## dependencies used
 
 1. axios - to fetch data from server
 2. razzle - to get bolier plate code for react server-side render application
-3. react -
+3. react 
 4. express
 5. razzle
 6. razzle-heroku
