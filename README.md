@@ -6,7 +6,7 @@ This project is created using [razzle -cli](https://www.npmjs.com/package/razzle
 
 run `npm install` in the project folder, this will install all the dependecies used in the project
 
-## Running in development mode
+## Run in development mode
 run `npm run dev` to run the app in dev mode
 
 Runs the app in the development mode.<br />
