@@ -2,9 +2,9 @@ Checkout the live app [here](https://spacex-launchs.herokuapp.com)
 
 This project is created using [razzle -cli](https://www.npmjs.com/package/razzle/v/0.5.2), it provides bolier-plate code for react server side rendering applications
 
-## To install all dependecies
+## To install all dependencies
 
-run `npm install` in the project folder, this will install all the dependecies used in the project
+run `npm install` in the project folder, this will install all the dependencies used in the project
 
 ## Run in development mode
 run `npm run dev` to run the app in dev mode
